@@ -25,14 +25,13 @@ I couldnt install without sudo permission
 6. Installation defaults to /usr/lib/python3.x/site-packages/cyipopt-1.4.1-pyxxxx
 7. Once installation is successful: export the python path as
 
-```
-export PYTHONPATH=$PYTHONPATH:/lib/python3.8/site-packages/cyipopt-1.4.1-py3.8-linux-x86_64.egg
-```
+   export PYTHONPATH=$PYTHONPATH:/lib/python3.8/site-packages/cyipopt-1.4.1-py3.8-linux-x86_64.egg
+
+
 8. Open Python3 and you should be able to perform successfuly without error this
 
-```
-import cyipopt
-```
+   import cyipopt
+
 
 ==================
 README for cyipopt
