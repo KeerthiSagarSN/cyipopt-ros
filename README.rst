@@ -1,6 +1,45 @@
 ==================
+My Installation Steps on Ubuntu 20.04!
+==================
+pip install cyipopt didnt work with Ubuntu 20.04.
+Got the following errors:
+
+
+
+1. Image 1 here
+
+1. Image 2 here
+
+Rectified them with the following method:
+
+1. Download the cyipopt from 
+https://pypi.org/project/cyipopt/#files
+
+2. Copy files into the catkin_repository/src
+
+3. cd catkin_repository/src/cyipopt/
+
+I couldnt install without sudo permission
+4. sudo python3 setup.py install
+5. Will get few errors due to certain library, but install wih verbose mode and install all dependencies with pip
+6. Installation defaults to /usr/lib/python3.x/site-packages/cyipopt-1.4.1-pyxxxx
+7. Once installation is successful: export the python path as 
+```
+export PYTHONPATH=$PYTHONPATH:/lib/python3.8/site-packages/cyipopt-1.4.1-py3.8-linux-x86_64.egg
+```
+
+8. Open Python3 and you should be able to perform successfuly without error this:
+
+```
+import cyipopt
+```
+
+
+
+==================
 README for cyipopt
 ==================
+
 
 Ipopt_ (Interior Point OPTimizer, pronounced eye-pea-opt) is a software package
 for large-scale nonlinear optimization. Ipopt is available from the COIN-OR_
