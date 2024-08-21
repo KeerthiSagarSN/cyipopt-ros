@@ -6,8 +6,8 @@ Got the following errors:
 
 
 
-1. [Error 1 here](Readme_Images/pip_install_error1.png)
-2. [Error 2 here](Readme_Images/pip_install_error2.png)
+1. [Error 1 here](./Readme_Images/pip_install_error1.png)
+2. [Error 2 here](./Readme_Images/pip_install_error2.png)
 
 
 
